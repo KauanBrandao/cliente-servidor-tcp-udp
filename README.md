@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Resumo do trabalho de redes:
 
 ### Para estabelecer a conexão entre dois processos ou duas máquinas diferentes é necessário que exista um servidor disponível para isso, então o primeiro passo foi criar o servidor tcp abaixo: 
@@ -58,4 +59,13 @@ cliente.close()
 ### No cliente a lógica é muito parecida, mas ao invés de criar o socket para ficar escutando em uma porta e um IP específicos, ele se conecta diretamente ao IP e à porta do servidor.
 
 ### No while é onde acontece novamente a conversa: o cliente manda uma mensagem (codificada) e depois recebe a mensagem que o servidor mandou, decodificando-a.
+=======
+# Como testar:
+
+## Nécessario executar primeiro o servidor, depois o cliente
+
+### Execute em um terminal -> python servidor_tcp.py, em seguida, em outro terminal execute -> python cliente_tcp.py
+
+
+>>>>>>> 88e06ad570051ca5e6cb0705fe80d0c32ce7479f
 
